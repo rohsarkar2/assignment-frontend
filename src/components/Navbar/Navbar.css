@@ -6,3 +6,6 @@
   display: flex;
   justify-content: center;
 }
+.p-menubar {
+  background: "white";
+}
