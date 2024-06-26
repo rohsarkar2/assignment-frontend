@@ -1,4 +1,3 @@
-import React from "react";
 import "./LastComponent.css";
 
 export const LastComponent = () => {
