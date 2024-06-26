@@ -1,0 +1,27 @@
+.p-inputgroup {
+  margin-top: 50px;
+  display: flex;
+  align-items: stretch;
+  /* width: 35%; */
+}
+.p-error {
+  /* margin-right: 26%; */
+  margin-top: 7px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.p-inputgroup {
+  width: 100%;
+  max-width: 45%;
+  margin-top: 60px;
+  /* margin: 4rem 0; */
+}
+
+@media (max-width: 600px) {
+  .p-inputgroup .p-inputtext,
+  .p-inputgroup .p-button {
+    width: 100%;
+    max-width: 30%;
+  }
+}

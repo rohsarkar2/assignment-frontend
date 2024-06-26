@@ -26,22 +26,26 @@ export default function Navbar() {
 
   return (
     <div
-      className="grid m-2 flex justify-content-center align-items-center"
-      // style={{
-      //   backgroundColor: Colors.lightOrange,
-      //   backgroundBlendMode: "lighten",
-      // }}
+      className="grid flex justify-content-center align-items-center"
+      style={{
+        backgroundColor: "rgba(254, 188, 148, 0.2)",
+      }}
     >
       <div
-        className="sm:col-12 md:col-2 p-4 flex justify-content-end align-items-center"
-        style={{ fontWeight: "bolder", fontSize: 18 }}
+        className="sm:col-12 md:col-3 p-4 flex justify-content-end align-items-center"
+        style={{ fontWeight: "bolder", fontSize: 20 }}
       >
         BrandName
       </div>
-      <div className="sm:col-12 md:col-6 flex justify-content-center align-items-center">
-        <Menubar model={items} />
+      <div className="sm:col-12 md:col-5 flex justify-content-center align-items-center">
+        <Menubar
+          model={items}
+          style={{
+            margin: "0px 10px",
+          }}
+        />
       </div>
-      <div className="sm:col-12 md:col-4 flex justify-content-center align-items-center">
+      <div className="sm:col-12 md:col-4 flex justify-content-start align-items-center">
         <Button
           className="mr-4"
           label="Login"

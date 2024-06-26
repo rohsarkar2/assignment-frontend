@@ -1,3 +1,10 @@
 .learn-more .p-button-label:hover {
   margin-right: 5px;
 }
+.p-card-header {
+  padding-top: 15px;
+  padding-left: 21px;
+}
+.p-card-title {
+  font-size: 16px;
+}
